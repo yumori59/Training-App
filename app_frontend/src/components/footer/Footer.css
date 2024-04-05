@@ -1,0 +1,41 @@
+.footerWrapper {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+.homeButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #f8fcff;
+  color: gray;
+}
+.homeButton:hover {
+  color: orange;
+}
+
+.recordButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #f8fcff;
+  color: gray;
+}
+.recordButton:hover {
+  color: orange;
+}
+
+.iconName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

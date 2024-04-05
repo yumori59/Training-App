@@ -1,0 +1,42 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f8fcff;
+  @media (max-width: 320px) {
+    /* iPhone 5/SE のスタイル */
+  }
+
+  @media (max-width: 375px) {
+    /* iPhone 6/7/8 のスタイル */
+  }
+
+  @media (max-width: 414px) {
+    /* iPhone 6+/7+/8+ のスタイル */
+  }
+
+  @media (max-width: 428px) {
+    /* iPhone 12/13 mini のスタイル */
+  }
+
+  @media (max-width: 828px) {
+    /* iPhone 12/13 のスタイル */
+  }
+
+  @media (max-width: 896px) {
+    /* iPhone 12/13 Pro のスタイル */
+  }
+}
+
+.homeTop {
+  flex: 6.5;
+  overflow: auto;
+}
+.homeMiddle {
+  flex: 4;
+}
+.homeBottom {
+  flex: 1.5;
+}
